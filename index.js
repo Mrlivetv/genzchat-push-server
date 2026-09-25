@@ -37,10 +37,6 @@ app.post("/api/cloud/messaging", async (req, res) => {
 
     const message = {
       token: receiverFcmToken,
-      notification: {
-        title: senderName || "GenZChat",
-        body: messageText || "",
-      },
       data: {
         senderName: senderName || "",
         text: messageText || "",

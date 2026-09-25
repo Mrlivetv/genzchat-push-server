@@ -9,7 +9,9 @@ Requirements:
     - git installed (Termux: pkg install git)
     - A file with ONLY your token inside, e.g. /storage/emulated/0/Download/github_token.txt
 """
+# git config --global --add safe.directory /storage/emulated/0/Download/genzchat-push-server/
 
+# git branch -m master main                                      git push -u origin main --force
 import subprocess
 import os
 import sys
